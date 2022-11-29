@@ -1,0 +1,33 @@
+A container is a standard unit of software that packages up code and all its 
+dependencies so the application runs quickly and reliably from one computing 
+environment to another.
+
+Containers are more like laptops than desktops. Desktops need to have a mouse,
+keyboard, and other external dependencies in order to run smoothly. Laptops one
+the other hand come pre-packaged with everything you need in order to run the 
+machine. You don't need a mouse, camera, keyboard, and you can take it anywhere
+with you. 
+
+Containers put everything your software needs into one portable package. You 
+have application code, config files, OS libraries, dependencies and more
+packaged into one container and shipped out, allowing for consistency across 
+different environments. 
+
+Containers use far less resources than virtual machines.
+
+A container runtime is the software used to run containers on a machine.
+
+Kubernetes, also known is K8s, is an open-source system for automating 
+deployment, scaling, and management of containerized applications.
+
+Kubernetes helps you deploy containers across a pool of compute resources, such 
+as servers. K8s allows you to easily manage multiple replicas of your application
+within the pool of servers. You can send the containers to K8s and have K8s 
+send the replicas to mulitple servers at a time. K8s also makes it easy for you
+to scale your application up or down, allowing you to add more applications
+or decrease the number to your choosing. 
+
+K8s provides a framework for managing and controlling your containers' network 
+communications. It offers a variety of features that give you the ability to 
+build more secure applications. K8s can also help you manage application 
+configuration and pass the config data to your containers.
