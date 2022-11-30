@@ -31,3 +31,12 @@ K8s provides a framework for managing and controlling your containers' network
 communications. It offers a variety of features that give you the ability to 
 build more secure applications. K8s can also help you manage application 
 configuration and pass the config data to your containers.
+
+A Kubernetes cluster is a collection of worker machines that run containers.
+
+A control plane manages one or more worker nodes.
+
+A worker node is a machine that runs containers within the cluster.
+
+Worker nodes require a container runtime to manage containers, and use a 
+component called kubelet to manage Kubernetes activity on the node.
