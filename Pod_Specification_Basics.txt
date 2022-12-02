@@ -1,0 +1,21 @@
+When it comes to configuring a pod in Kubernetes you only need the following
+basic requirements to create and get the pod running:
+
+kind- specifies the obgject type as Pod.
+metadata.name- the name of the Pod object.
+spec.containers- provides a list of one or more containers included in the Pod.
+spec.containers[].image- specifies the name of a container image containing the 
+software you want to run.
+
+Here is an example of a basic nginx-configured Pod in YAML format:
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-Pod
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    ports:                          -You can also add in the port you want to expose the Pod to.
+    - containerPort: 80
